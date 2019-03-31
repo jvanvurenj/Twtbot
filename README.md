@@ -1,5 +1,7 @@
 ### Twitter Bot Detection via LSTM
 *note: database currently not implemented*
+
+
 To use Twtbot with python-twitter ( https://github.com/bear/python-twitter ) and Tensorflow ( tensorflow.org ) installed:
 Simply run
 - python3 webScraper.py
