@@ -1,5 +1,15 @@
 ### Twitter Bot Detection via LSTM
--- N/A --
+*note: database currently not implemented*
+To use Twtbot with python-twitter ( https://github.com/bear/python-twitter ) and Tensorflow ( tensorflow.org ) installed:
+Simply run
+- python3 webScraper.py
+It will build the neural network, then ask for a username you would like checked.
+
+
+Note:
+Twitter's free API vastly limits how much you can train a neural network. Additionally, finding confirmed bots that aren't already suspended is very difficult, resulting in less accuracy than I would have liked.
+
+
 ### Setting up database
 To run a local instance of a database, ensure you have the dependencies installed:
 	- pip3 install peewee
