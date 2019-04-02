@@ -8,10 +8,10 @@ from tensorflow.keras import layers
 import functools
 
 
-api = twitter.Api(consumer_key='LSrEVaDfvWABBDzOnwJfcZKQP',
-                  consumer_secret='yywPtdqZCX848galFYxlzWWOg125CkzvQ0rwN7JAILeqmrpPLN',
-                  access_token_key='436314157-04GsZeptw7YbZCpmio3CtbKB4ubsnJmNXi63QkZJ',
-                  access_token_secret='HglHd4OHK2BsGaVfCBrvQuA5RHq963lMnoGJM8KFV7I0L'
+api = twitter.Api(consumer_key='',
+                  consumer_secret='',
+                  access_token_key='',
+                  access_token_secret=''
                   )
 
 # note, username can be either a twitter name or user id
