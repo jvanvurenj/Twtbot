@@ -23,7 +23,7 @@ When you want to create the database (one time thing), just run
 See Controller.py for methods involving the addition of users and tweets to the database.
 Note: retrieving tweets is currently not implemented, and id systems need to be put into place to properly retrieve the tweets.
 
-Problems/Possible Improvements:
+### Problems/Possible Improvements:
 
 Twitter's free API limits hits per ~10 minutes to a rather lower number. This causes problems when training the neural network.
 Solutions:
